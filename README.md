@@ -75,9 +75,9 @@ This Model prediction is unable to match with actual labelling. This is missing 
 [Complex-YOLO: An Euler-Region-Proposal for
 Real-time 3D Object Detection on Point Clouds](https://arxiv.org/pdf/1803.06199.pdf)
   
-[LO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud](htps://arxiv.org/pdf/1808.02350v1.pdf)  
+[LO3D: End-to-end real-time 3D Oriented Object Bounding Box Detection from LiDAR Point Cloud](https://arxiv.org/pdf/1808.02350v1.pdf)  
 
-[Expandable YOLO: 3D Object Detection from RGB-D Images](htps://arxiv.org/ftp/arxiv/papers/2006/2006.14837.pdf)
+[Expandable YOLO: 3D Object Detection from RGB-D Images](https://arxiv.org/ftp/arxiv/papers/2006/2006.14837.pdf)
 
 [VoxelNet: End-to-End Learning for Point Cloud Based 3D Object Detection](https://arxiv.org/pdf/1711.06396.pdf)
 
