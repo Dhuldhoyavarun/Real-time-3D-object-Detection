@@ -8,8 +8,8 @@
 
 | Model Name          | Training Set             | Evaluation set |Training Epochs|Training Batch Size|
 |-------------------- | -------------------------|----------------|---------------|-------------------|        
-| Complex YOLO        |      6000                | 1,500          | 62            | 32                |
-| Complex YOLO        |      6000                | 1,500          | 100           | 12                |
+| Complex YOLO Low accuracy        |      6000                | 1,500          | 62            | 32                |
+| Complex YOLO High accuracy       |      6000                | 1,500          | 100           | 12                |
 
 View Detailed Results     |  View Detailed Epoch Results
 :-------------------------:|:-------------------------:
