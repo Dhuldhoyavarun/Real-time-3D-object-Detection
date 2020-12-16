@@ -57,6 +57,15 @@ View Detailed Epoch Results     |  View Folder Containing Image Results
 [Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%20Results/attention-model2/epochs/attention-model-3.pdf)  |  [Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/tree/main/Attention%20Results/attention-model2)
 
 
+## COLOR CODE OF OBJECTS
+
+* Actual Image - White
+* Car - Red
+* Tram- Cyan
+* Cyclist - Pink
+* Truck - Blue
+* Pedastrian - Yellow
+
 ## OBSERVATIONS
 ----# Observations:
 
