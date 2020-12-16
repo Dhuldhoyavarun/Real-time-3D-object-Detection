@@ -48,66 +48,6 @@ View Detailed Results     |  View Detailed Epoch Results
 
 ##### CUMMULATIVE : BLEU SCORE, GLEU SCORE and WER (Word Error Rate) metric scores for model:
 
-## Study 2: Attention Model + InceptionV3 : 
-### MODEL 1: 
-##### Model Description:
-
-| Attention Mechanism | Vocabulary(Unique Words) |Number of Images|Training Epochs|Captions per image|Total Datapoints|Training Batch Size|
-|-------------------- | -------------------------|----------------|---------------|------------------|----------------|-------------------|        
-|  Bahdanau Attention | 5,000                    | 6,000          | 10            |5                 |      30,000    | 64                |
-
- ###### BLEU Scores - Bilingual Evaluation Understudy
- 
- <p align="center">
-  <img width="740" height="180" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/res0.png">
-</p>
-
-
-WER- WORD ERROR RATE       |  PREDICTIONS
-:-------------------------:|:-------------------------:
-![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/final0.png)  |  ![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/predictions0.png)
-
-
-View Detailed Epoch Results     |  View Folder Containing Image Results
-:-------------------------:|:-------------------------:
-[Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%20Results/attention-model0/epochs/attention-model-0.pdf)  |  [Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/tree/main/Attention%20Results/attention-model0)
-
-### MODEL 2: 
-##### Model Description:
-
-| Attention Mechanism | Vocabulary(Unique Words) |Number of Images|Training Epochs|Captions per image|Total Datapoints|Training Batch Size|
-|-------------------- | -------------------------|----------------|---------------|------------------|----------------|-------------------|        
-|  Bahdanau Attention | 7,000                    | 6,000          | 30            |5                 |    30,000      | 64                |
-
- ###### BLEU Scores - Bilingual Evaluation Understudy
- 
- <p align="center">
-  <img width="740" height="180" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/res1.png">
-</p>
-
-
-WER- WORD ERROR RATE       |  PREDICTIONS
-:-------------------------:|:-------------------------:
-![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/final1.png)  |  ![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/predictions1.png)
-
-View Detailed Epoch Results     |  View Folder Containing Image Results
-:-------------------------:|:-------------------------:
-[Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%20Results/attention-model1/epochs/attention-model-2.pdf)  |  [Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/tree/main/Attention%20Results/attention-model1)
-
-### MODEL 3: 
-##### Model Description:
-
-| Attention Mechanism | Vocabulary(Unique Words) |Number of Images|Training Epochs|Captions per image|Total Datapoints|Training Batch Size|
-|-------------------- | -------------------------|----------------|---------------|------------------|----------------|-------------------|        
-|  Bahdanau Attention | 7,000                    | 10,000         | 50            |5                 |    50,000      | 64                |
-
- ###### BLEU Scores - Bilingual Evaluation Understudy
- 
- <p align="center">
-  <img width="740" height="180" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/res2.png">
-</p>
-
-
 WER- WORD ERROR RATE       |  PREDICTIONS
 :-------------------------:|:-------------------------:
 ![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/final2.png)  |  ![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/predictions2.png)
@@ -115,6 +55,15 @@ WER- WORD ERROR RATE       |  PREDICTIONS
 View Detailed Epoch Results     |  View Folder Containing Image Results
 :-------------------------:|:-------------------------:
 [Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%20Results/attention-model2/epochs/attention-model-3.pdf)  |  [Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/tree/main/Attention%20Results/attention-model2)
+
+
+## OBSERVATIONS
+----# Observations:
+
+Initally we had faced an overfitting issue while running at 100 epochs with batch size of 12, where its showing false positives. Later when we adjusted it to 62 epochs and 32 batch size, the place where we got the first lower curve served our purpose way better than previous configuration of hyper parameters. 
+
+
+
 
 ## REFERENCES
 
