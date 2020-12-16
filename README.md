@@ -36,16 +36,6 @@ Initally we had faced an overfitting issue while running at 100 epochs with batc
   <img height="250" width="700" src="https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/model_bad.png">
 </p>
 
-##### CUMMULATIVE : BLEU SCORE, GLEU SCORE and WER (Word Error Rate) metric scores for model:
-
-WER- WORD ERROR RATE       |  PREDICTIONS
-:-------------------------:|:-------------------------:
-![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/final2.png)  |  ![](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Images/predictions2.png)
-
-View Detailed Epoch Results     |  View Folder Containing Image Results
-:-------------------------:|:-------------------------:
-[Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%20Results/attention-model2/epochs/attention-model-3.pdf)  |  [Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/tree/main/Attention%20Results/attention-model2)
-
 
 ## COLOR CODE OF OBJECTS
 
