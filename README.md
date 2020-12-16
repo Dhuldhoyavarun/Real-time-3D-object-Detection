@@ -16,34 +16,24 @@ View Detailed Results     |  View Detailed Epoch Results
 [62 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss_vs_epoch.png)  |  [100 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss%20vs%20epoch%202.png)
 
 
+## OBSERVATIONS
+
+Initally we had faced an overfitting issue while running at 100 epochs with batch size of 12, where its showing false positives. Later when we adjusted it to 62 epochs and 32 batch size, the place where we got the first lower curve served our purpose way better than previous configuration of hyper parameters. 
+
+
 ##### EXAMPLE: GOOD PREDICTION RESULT
  <p align="center">
-  <img height="400" width="500" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%2BResNet%20Results/good/good2.png">
-</p>
-
-##### BLEU SCORE, GLEU SCORE and WER (Word Error Rate) metric comparison between sentences:
- <p align="center">
-  <img width="1040" height="180" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%2BResNet%20Results/good/print-goodres.png">
+  <img height="400" width="500" src="https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/eval_bv006036-good.png">
 </p>
 
 ##### EXAMPLE: FAIR PREDICTION RESULT
  <p align="center">
-  <img height="225" width="630" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%2BResNet%20Results/fair/fair2.png">
-</p>
-
-##### BLEU SCORE, GLEU SCORE and WER (Word Error Rate) metric comparison between sentences:
- <p align="center">
-  <img width="950" height="210" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%2BResNet%20Results/fair/fair3-final.png">
+  <img height="225" width="630" src="https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/006137-fair.png">
 </p>
 
 ##### EXAMPLE: BAD PREDICTION RESULT
  <p align="center">
-  <img height="250" width="700" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%2BResNet%20Results/bad/bad1.png">
-</p>
-
-##### BLEU SCORE, GLEU SCORE and WER (Word Error Rate) metric comparison between sentences:
- <p align="center">
-  <img width="900" height="180" src="https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%2BResNet%20Results/bad/badRes-final.png">
+  <img height="250" width="700" src="https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/model_bad.png">
 </p>
 
 ##### CUMMULATIVE : BLEU SCORE, GLEU SCORE and WER (Word Error Rate) metric scores for model:
@@ -66,10 +56,6 @@ View Detailed Epoch Results     |  View Folder Containing Image Results
 * Truck - Blue
 * Pedastrian - Yellow
 
-## OBSERVATIONS
-----# Observations:
-
-Initally we had faced an overfitting issue while running at 100 epochs with batch size of 12, where its showing false positives. Later when we adjusted it to 62 epochs and 32 batch size, the place where we got the first lower curve served our purpose way better than previous configuration of hyper parameters. 
 
 
 
