@@ -28,7 +28,7 @@ Initally we had faced an overfitting issue while running at 100 epochs with batc
 
 ##### EXAMPLE: FAIR PREDICTION RESULT
  <p align="center">
-  <img height="225" width="630" src="https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/006137-fair.png">
+  <img height="225" width="630" src="https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/model_fair.png">
 </p>
 
 ##### EXAMPLE: BAD PREDICTION RESULT
