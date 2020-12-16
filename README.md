@@ -1,7 +1,7 @@
 ## DEEP LEARNING - REAL-TIME 3D OBJECT DETECTION
 3D object detection has become inevitable for day-to-day applications be it autonomous driving or constructing images or even for augmented reality since it directly links to environmental understanding and therefore builds the base for prediction and motion planning. But, in the case of real-time 3D object detection, we need to deal with highly sparse data considering its usage amongst real-life objects. In those cases, it is extremely inefficient to process data in general methods of detection and also to reduce the noise during this process is tiresome.
 
-## Model Description:
+## MODEL:
 
 ### PREPROCESSING USING LIDAR POINT CLOUD REPRESENTATION
 We project the point cloud to create a bird’s eye view grid map. We create two grid maps from the projection of the point cloud. The first feature map contains the maximum height, where each grid cell (pixel) value represents the height of the highest point associated with that cell. The second grid map represent the density of points. Which means, the more points are associated with a grid cell, the higher its value would be. The density is calculated using the following equation:
@@ -24,17 +24,18 @@ We used the following while training the model.
 * We wrote a function Region Loss to calculate the training loss of the model for 7 classes and we used 5 anchors.
 * To classify the objects, we used a threshold of 0.7 for cars and 0.5 for rest of the classes
 
-## MODELLING AND RESULTS
+## RESULTS
 
 | Model Name          | Training Set             | Evaluation set |Training Epochs|Training Batch Size|
 |-------------------- | -------------------------|----------------|---------------|-------------------|        
 | Complex YOLO Low accuracy  |      6000         | 1,500          | 62            | 32                |
 | Complex YOLO High accuracy |      6000         | 1,500          | 100           | 12                |
 
+![Comparison](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/comparison.png)
 
 View Detailed Results     |  View Detailed Epoch Results
 :-------------------------:|:-------------------------:
-[62 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss_vs_epoch.png)  |  [100 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss%20vs%20epoch%202.png)
+![62 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss_vs_epoch.png)  |  ![100 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss%20vs%20epoch%202.png)
 
 
 ## OBSERVATIONS
