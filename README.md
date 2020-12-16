@@ -1,19 +1,18 @@
 # Dlproject
 
 
-## DEEP LEARNING - IMAGE CAPTIONING: A COMPARATIVE STUDY
-To be Filled 
+## DEEP LEARNING - REAL-TIME 3D OBJECT DETECTION
+3D object detection has become inevitable for day-to-day applications be it autonomous driving or constructing images or even for augmented reality since it directly links to environmental understanding and therefore builds the base for prediction and motion planning. But, in the case of real-time 3D object detection, we need to deal with highly sparse data considering its usage amongst real-life objects. In those cases, it is extremely inefficient to process data in general methods of detection and also to reduce the noise during this process is tiresome.
 
-## Study 1 : Attention Model + ResNet50  
 ##### Model Description:
 
-| Attention Mechanism | Vocabulary(Unique Words) |Number of Images|Training Epochs|Captions per image|Total Datapoints|Training Batch Size|
-|-------------------- | -------------------------|----------------|---------------|------------------|----------------|-------------------|        
-|  Bahdanau Attention | 7,000                    | 6,000          | 30            |5                 |      30,000    | 64                |
+| Model Name          | Training Set             | Evaluation set |Training Epochs|Training Batch Size|
+|-------------------- | -------------------------|----------------|---------------|-------------------|        
+| Complex YOLO        |      6000                | 1,500          | 62            | 32                |
 
 View Detailed Results     |  View Detailed Epoch Results
 :-------------------------:|:-------------------------:
-[Click To View](https://github.com/HemanthTejaY/Image-Captioning-A-Comparative-Study/blob/main/Attention%2BResNet%20Results/attentionResNetResults.pdf)  |  [Click To View]()
+[62 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss_vs_epoch.png)  |  [100 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss%20vs%20epoch%202.png)
 
 
 ##### EXAMPLE: GOOD PREDICTION RESULT
