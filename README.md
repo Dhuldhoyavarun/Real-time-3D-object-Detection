@@ -33,7 +33,7 @@ We used the following while training the model.
 
 ![Comparison](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/comparison.png)
 
-View Detailed Results     |  View Detailed Epoch Results
+62 Epoch Loss vs Epoch Graph    |  100 Epoch Loss vs Epoch graph|
 :-------------------------:|:-------------------------:
 ![62 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss_vs_epoch.png)  |  ![100 Epochs](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/loss%20vs%20epoch%202.png)
 
