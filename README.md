@@ -1,15 +1,27 @@
-# Dlproject
-
-
 ## DEEP LEARNING - REAL-TIME 3D OBJECT DETECTION
 3D object detection has become inevitable for day-to-day applications be it autonomous driving or constructing images or even for augmented reality since it directly links to environmental understanding and therefore builds the base for prediction and motion planning. But, in the case of real-time 3D object detection, we need to deal with highly sparse data considering its usage amongst real-life objects. In those cases, it is extremely inefficient to process data in general methods of detection and also to reduce the noise during this process is tiresome.
 
 ##### Model Description:
 
+## PREPROCESSING USING LIDAR POINT CLOUD REPRESENTATION
+We project the point cloud to create a bird’s eye view grid map. We create two grid maps from the projection of the point cloud. The first feature map contains the maximum height, where each grid cell (pixel) value represents the height of the highest point associated with that cell. The second grid map represent the density of points. Which means, the more points are associated with a grid cell, the higher its value would be. The density is calculated using the following equation:
+$min(1.0,log(N + 1)/log(64) )$, Where N is the number of points in each grid cell.
+
+## COMPLEX-YOLO
+Complex-YOLO is a 3d version of the YOLOv2, one of the fastest state of the art object detectors. The Complex-YOLO network takes a birds-eye-view RGB-map as input. It uses a simplified YOLOv2  CNN architecture, extended by a complex angle regression and E-RPN, to detect accurate multi-class oriented 3D objects while still operating in real-time. 
+
+Complex YOLO converts the orientation vector to real and imaginary values. The problem with this is that the regression does not guarantee, or preserve any type of correlation between the two components of the angle.
+
+## ARCHITECTURE
+We design a new CNN architecture base on YOLOv2 to detect 3D objects in real-time, called 3DNet. It has 18 convolutional layers and 5 maxpooling layers. After each convolutional layer, there is a LReLU and BN layer, except in the last layer.
+
+![Architecture Diagram](https://github.com/Dhuldhoyavarun/Dlproject/blob/main/results/complex%20yolo%20pipeline.png)
+
 | Model Name          | Training Set             | Evaluation set |Training Epochs|Training Batch Size|
 |-------------------- | -------------------------|----------------|---------------|-------------------|        
-| Complex YOLO Low accuracy        |      6000                | 1,500          | 62            | 32                |
-| Complex YOLO High accuracy       |      6000                | 1,500          | 100           | 12                |
+| Complex YOLO Low accuracy  |      6000         | 1,500          | 62            | 32                |
+| Complex YOLO High accuracy |      6000         | 1,500          | 100           | 12                |
+
 
 View Detailed Results     |  View Detailed Epoch Results
 :-------------------------:|:-------------------------:
